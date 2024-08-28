@@ -111,21 +111,4 @@ function Clock(){
     )
 }
 
-
-
 export default Clock
-
-
-
-// useEffect(()=>{
-//     if (!play) return;
-//
-//     if (!timeLeft) return;
-//
-//     const intervalId = setInterval(()=>{
-//         setTime(timeLeft-1)
-//     }, 1500)
-//
-//     return () => clearInterval(intervalId);
-//
-// }, [play, timeLeft])
